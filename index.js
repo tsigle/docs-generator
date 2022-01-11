@@ -1,7 +1,7 @@
 const json2md = require("json2md")
 
 //const manifest = require("./manifest")
-const manifest = require("./connectors/httpConnector")
+const manifest = require(process.argv[2])
 
 console.log(manifest);
 
