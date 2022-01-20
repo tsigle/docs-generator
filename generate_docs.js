@@ -1,7 +1,7 @@
 const json2md = require("json2md")
 const fs = require('fs')
 
-const manifest = require("./myconnector/manifest/manifest.js")
+const manifest = require("./myconnector/manifests/manifest.js")
 
 let connectionProps = [];
 let connectionPropsOutput = []
